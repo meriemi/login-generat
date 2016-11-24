@@ -25,4 +25,12 @@ public class LoginGeneratorTest {
 
     }
 
+    @Test
+    public void generateLoginForJRAL2() throws Exception {
+        String login = aLoginGenerator.generateLoginForNomAndPrenom("Raling","John");
+        Assert.assertEquals("JRAL2",login);
+
+    }
+
+
 }
