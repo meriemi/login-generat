@@ -5,7 +5,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-
+/*
+Exigence #1
+ */
 /**
  * Classe de service permettant la gestion des login
  */
